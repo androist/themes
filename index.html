@@ -10,7 +10,7 @@ layout: page
 <div class="posts">
 
 {% for post in site.posts %}
-	<div class="post" data-platform="{{post.platform}}" style="background: url({{post.thumb}}) no-repeat; background-size: 100%">
+	<div class="post" data-platform="{{post.platform}}" style="background-image: url({{post.thumb}})">
 		<div class="title">
 			<a href="{{post.url}}">{{post.title}}</a>
 		</div>
