@@ -18,7 +18,7 @@ html, body {
 }
 
 .content {
-	margin: 1em 2em 1em 2em;
+	margin: 1em 3em 1em 3em;
 	text-align: center;
 }
 
@@ -59,14 +59,14 @@ html, body {
 .post {
 	float: left;
 	margin: 1em;
-	width: 15em;
-	height: 15em;
+	width: 17em;
+	height: 17em;
 	cursor: pointer;
 }
 
 .post .title {
 	background: rgba(0,0,0,.8);
-	height: 15em;
+	height: 17em;
 	text-align: center;
 	opacity: 0;
 	transition: .5s;
