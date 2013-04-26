@@ -1,5 +1,5 @@
 html, body {
-	background: url(/img/line-tile.png) #262c33;
+	background: url(../img/line-tile.png) #262c33;
 	color: white;
 	font-family: sans-serif;
 }
@@ -12,4 +12,39 @@ html, body {
 .header img {
 	height: 50px;
 	vertical-align: text-top;
+}
+
+.content {
+	margin: 0 2em 1em 2em;
+}
+
+.post {
+	float: left;
+	margin: 1em;
+	width: 15em;
+	height: 15em;
+	cursor: pointer;
+}
+
+.post .title {
+	background: rgba(0,0,0,.8);
+	padding: 1em;
+	height: 13em;
+	text-align: center;
+	opacity: 0;
+	transition: .5s;
+	display: table;
+}
+
+.post:hover .title {
+	opacity: 1;
+}
+
+.post a {
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	font-size: 2em;
+	color: white;
+	text-decoration: none;
 }
