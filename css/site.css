@@ -164,6 +164,7 @@ a:hover {
 	padding-right: .5em;
 	color: white;
 	text-decoration: none;
+	overflow: hidden;
 }
 
 .footer {
