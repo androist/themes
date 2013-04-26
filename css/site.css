@@ -2,6 +2,8 @@ html, body {
 	background: url(../img/line-tile.png) #262c33;
 	color: white;
 	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -19,7 +21,16 @@ a:hover {
 	opacity: 1;
 }
 
+.clearfix {
+	clear: both;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
 .header a {
+	margin-top: 10px;
 	display: block;
 	color: white;
 	text-decoration: none;
@@ -141,4 +152,12 @@ a:hover {
 	padding-right: .5em;
 	color: white;
 	text-decoration: none;
+}
+
+.footer {
+	margin-top: -1em;
+	text-align: center;
+	background: #454545;
+	height: 1em;
+	line-height: 1em;
 }

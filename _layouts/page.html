@@ -7,11 +7,17 @@
 	<link rel="stylesheet" href="{{site.baseurl}}css/site.css">
 </head>
 <body>
+
+<div class="wrapper"
 	{% include header.html %}
 	<div class="content">
 		{{content}}
 	</div>
+</div>
+<div class="footer">
+	By <a href="http://androist.com">Androist</a>
+</div>
 
-	<script src="{{site.baseurl}}js/jquery-2.0.0.min.js"></script>
-	<script src="{{site.baseurl}}js/site.js"></script>
+<script src="{{site.baseurl}}js/jquery-2.0.0.min.js"></script>
+<script src="{{site.baseurl}}js/site.js"></script>
 </body>
