@@ -1,7 +1,7 @@
-themes
+Androist Themes
 ======
 
-Android themes
+Android theme gallery
 
 Post format:
 
