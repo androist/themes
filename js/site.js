@@ -1,18 +1,4 @@
 $(function() {
-	var platforms = []
-
-	$('.post').each(function() {
-		var platform = $(this).data('platform')
-
-		if(platform && platforms.indexOf(platform) == -1) {
-			platforms.push(platform)
-
-			$('.select-platform').append(
-				'<a class="platform" data-platform="' + platform + '">' + platform + '</a>'
-			)
-		}
-	})
-
 	$('.platform').click(function() {
 		$('.platform').removeClass('active')
 		$(this).addClass('active')
