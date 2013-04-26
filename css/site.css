@@ -27,6 +27,23 @@ html, body {
 	vertical-align: top;
 }
 
+.content .left {
+	text-align: right;
+}
+
+.content .right {
+	text-align: left;
+}
+
+.post-about {
+	margin-left: 1em;
+}
+
+.post-about h1 {
+	margin-top: 0;
+	margin-bottom: .1em;
+}
+
 .post {
 	float: left;
 	margin: 1em;
