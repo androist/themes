@@ -1,4 +1,4 @@
-$(function{
+$(function() {
 	$('.platform').click(function() {
 		var platform = $(this).data('platform')
 

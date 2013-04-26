@@ -59,8 +59,12 @@ html, body {
 .select-platform a {
 	display: inline-block;
 	text-decoration: none;
-	color: white;
+	color: #2d2d2d;
 	font-weight: bold;
+	cursor: pointer;
+	background: white;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 .post {
