@@ -46,7 +46,7 @@ a:hover {
 }
 
 .header img {
-	height: 50px;
+	height: 1em;
 	vertical-align: text-top;
 }
 
@@ -183,9 +183,13 @@ a:hover {
 	opacity: .2;
 }
 
+@media (max-width: 40em) {
+	
+}
+
 @media (max-width: 22em) {
    .header a {
-   	font-size: 1em;
+   	font-size: 1.5em;
    }
 
    .content {
