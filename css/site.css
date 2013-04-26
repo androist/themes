@@ -71,9 +71,12 @@ a:hover {
 	text-align: left;
 }
 
-.post-thumb img {
+.post-thumb {
 	max-width: 50%;
-	max-height: 90%;
+}
+
+.post-thumb img {
+	max-width: 100%;
 }
 
 .post-about {
