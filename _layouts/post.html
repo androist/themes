@@ -7,7 +7,11 @@ layout: page
 </div>
 <div class="right post-about">
 	<h1>{{page.title}}</h1>
+	{% if page.author_url %}
 	author: <a href="{{page.author_url}}" target="_blank">{{page.author}}</a><br>
+	{% else %}
+	author: {{page.author}}<br>
+	{% endif %}
 	platform: {{page.tags | join: ","}}<br>
 	<a href="{{page.download}}" class="download" target="_blank">Download</a>
 </div>
