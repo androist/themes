@@ -192,4 +192,14 @@ a:hover {
    	margin-left: 0;
    	margin-right: 0;
    }
+
+   .post {
+   	width: 10em;
+   	height: 10em;
+   	margin: .5em;
+   }
+
+   .post-about {
+   	margin-left: 0;
+   }
 }
