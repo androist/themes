@@ -233,6 +233,12 @@ a:hover {
    	max-width: 100%;
    }
 
+   .post-thumb {
+   	width: auto;
+   	max-width: 100%;
+   	text-align: center;
+   }
+
    .post-about {
    	margin-left: 0;
    	text-align: center !important;
