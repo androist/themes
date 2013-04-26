@@ -106,6 +106,10 @@ a:hover {
 	opacity: 1;
 }
 
+.select-platform {
+	line-height: 2em;
+}
+
 .select-platform a {
 	display: inline-block;
 	text-decoration: none;
@@ -116,7 +120,8 @@ a:hover {
 	opacity: .8;
 	border-radius: 3px;
 	margin-right: .5em;
-	padding: 5px 10px;
+	padding: 0 10px;
+	line-height: 1.7em
 	transition: .5s;
 }
 
