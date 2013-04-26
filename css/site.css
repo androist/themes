@@ -169,3 +169,7 @@ a:hover {
 	height: 1em;
 	vertical-align: text-top;
 }
+
+.footer .separator {
+	opacity: .2;
+}
