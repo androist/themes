@@ -156,6 +156,8 @@ a:hover {
 	opacity: 0;
 	transition: .5s;
 	display: table;
+	-webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
 }
 
 .post:hover .title {
