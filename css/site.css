@@ -4,7 +4,10 @@ html, body {
 	font-family: sans-serif;
 }
 
-.header h1 {
+.header a {
+	display: block;
+	color: white;
+	text-decoration: none;
 	text-align: center;
 	font-size: 3em;
 }
