@@ -56,6 +56,13 @@ html, body {
 	text-decoration: none;
 }
 
+.select-platform a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
 .post {
 	float: left;
 	margin: 1em;

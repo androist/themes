@@ -4,17 +4,20 @@ layout: page
 ---
 
 <div class="select-platform">
+	<a class="plaftorm">All</a>
 	<a class="platform" data-platform="CM7">CM7</a>
 	<a class="platform" data-platform="CM9">CM9</a>
 	<a class="platform" data-platform="CM10">CM10</a>
 </div>
 
+<div class="posts">
+
 {% for post in site.posts %}
-
-<div class="post" data-platform="{{post.platform}}" style="background: url({{post.thumb}}) no-repeat center center; background-size: 100%">
-	<div class="title">
-		<a href="{{post.url}}">{{post.title}}</a>
+	<div class="post" data-platform="{{post.platform}}" style="background: url({{post.thumb}}) no-repeat; background-size: 100%">
+		<div class="title">
+			<a href="{{post.url}}">{{post.title}}</a>
+		</div>
 	</div>
-</div>
-
 {% endfor %}
+
+</div>
