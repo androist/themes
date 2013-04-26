@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div class="left post-thumb">
-	<img src="{{page.thumb}}">
+	<img src="{% if page.bigthumb %}{{page.bigthumb}}{% else %}{{page.thumb}}{% endif %}">
 </div>
 <div class="right post-about">
 	<h1>{{page.title}}</h1>
