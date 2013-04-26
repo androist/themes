@@ -19,6 +19,11 @@ html, body {
 
 .content {
 	margin: 0 2em 1em 2em;
+	text-align: center;
+}
+
+.content .left, .content .right {
+	display: inline-block;
 }
 
 .post {
