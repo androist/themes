@@ -233,6 +233,10 @@ a:hover {
    	max-width: 100%;
    }
 
+   .content {
+   	text-align: center;
+   }
+
    .post-thumb {
    	width: auto;
    	max-width: 100%;
