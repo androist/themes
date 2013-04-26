@@ -137,6 +137,7 @@ a:hover {
 	width: 17em;
 	height: 17em;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 .post .title {
@@ -166,7 +167,6 @@ a:hover {
 	padding-right: .5em;
 	color: white;
 	text-decoration: none;
-	overflow: hidden;
 }
 
 .footer {
