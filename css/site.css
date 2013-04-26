@@ -55,7 +55,7 @@ a:hover {
 .content {
 	margin: 1em 3em 0 3em;
 	padding-bottom: 3em;
-	text-align: center;
+	text-align: left;
 }
 
 .content .left, .content .right {
@@ -72,7 +72,7 @@ a:hover {
 }
 
 .post-thumb {
-	max-width: 50%;
+	width: 50%;
 }
 
 .post-thumb img {
@@ -111,6 +111,7 @@ a:hover {
 
 .select-platform {
 	line-height: 2em;
+	text-align: center;
 }
 
 .select-platform a {
@@ -135,6 +136,7 @@ a:hover {
 
 .posts {
 	margin-top: 1em;
+	text-align: center;
 }
 
 .post {
