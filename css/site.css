@@ -11,6 +11,12 @@ body {
 a {
 	color: white;
 	text-decoration: none;
+	opacity: .9;
+	transition: opacity .5s;
+}
+
+a:hover {
+	opacity: 1;
 }
 
 .header a {
