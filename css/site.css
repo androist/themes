@@ -145,6 +145,10 @@ a:hover {
 	opacity: 1;
 }
 
+.touch .post .title {
+	opacity: .9;
+}
+
 .post a {
 	display: table-cell;
 	vertical-align: middle;
