@@ -50,6 +50,11 @@ a:hover {
 	text-align: left;
 }
 
+.post-thumb img {
+	max-width: 400px;
+	max-height: 500px;
+}
+
 .post-about {
 	margin-left: 1em;
 	font-weight: bold;
