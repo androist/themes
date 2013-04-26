@@ -161,3 +161,8 @@ a:hover {
 	height: 2em;
 	line-height: 2em;
 }
+
+.footer img {
+	height: 1em;
+	vertical-align: text-top;
+}
