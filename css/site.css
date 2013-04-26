@@ -177,3 +177,14 @@ a:hover {
 .footer .separator {
 	opacity: .2;
 }
+
+@media (max-width: 22em) {
+   .header a {
+   	font-size: 2em;
+   }
+
+   .content {
+   	margin-left: 0;
+   	margin-right: 0;
+   }
+}
