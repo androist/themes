@@ -28,8 +28,7 @@ html, body {
 
 .post .title {
 	background: rgba(0,0,0,.8);
-	padding: 1em;
-	height: 13em;
+	height: 15em;
 	text-align: center;
 	opacity: 0;
 	transition: .5s;
@@ -45,6 +44,8 @@ html, body {
 	vertical-align: middle;
 	height: 100%;
 	font-size: 2em;
+	padding-left: .5em;
+	padding-right: .5em;
 	color: white;
 	text-decoration: none;
 }
