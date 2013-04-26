@@ -110,6 +110,7 @@ a:hover {
 }
 
 .select-platform {
+	line-height: 2em;
 }
 
 .select-platform a {
