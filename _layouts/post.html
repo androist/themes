@@ -8,6 +8,6 @@ layout: page
 <div class="right post-about">
 	<h1>{{page.title}}</h1>
 	author: <a href="{{page.author_url}}" target="_blank">{{page.author}}</a><br>
-	platform: {{page.tags.join ","}}<br>
+	platform: {{page.tags | join: ","}}<br>
 	<a href="{{page.download}}" class="download" target="_blank">Download</a>
 </div>
