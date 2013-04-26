@@ -2,3 +2,7 @@ baseurl: /
 url: http://themes.androist.com
 permalink: /:year/:title
 title: Androist Themes
+platforms:
+- CM7
+- CM9
+- CM10

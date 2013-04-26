@@ -5,9 +5,9 @@ layout: page
 
 <div class="select-platform">
 	<a class="plaftorm">All</a>
-	<a class="platform" data-platform="CM7">CM7</a>
-	<a class="platform" data-platform="CM9">CM9</a>
-	<a class="platform" data-platform="CM10">CM10</a>
+	{% for platform in site.platforms %}
+	<a class="platform" data-platform="{{platform}}">{{platform}}</a>
+	{% endfor %}
 </div>
 
 <div class="posts">
