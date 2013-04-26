@@ -8,6 +8,7 @@ html, body {
 }
 
 body {
+	overflow-y: scroll;
 }
 
 a {
