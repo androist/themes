@@ -30,7 +30,7 @@ a:hover {
 }
 
 .header a {
-	margin-top: 10px;
+	padding-top: 10px;
 	display: block;
 	color: white;
 	text-decoration: none;
@@ -45,7 +45,8 @@ a:hover {
 }
 
 .content {
-	margin: 1em 3em 3em 3em;
+	margin: 1em 3em 0 3em;
+	padding-bottom: 3em;
 	text-align: center;
 }
 
