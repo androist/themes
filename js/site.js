@@ -1,5 +1,8 @@
 $(function() {
 	$('.platform').click(function() {
+		$('.platform').removeClass('active')
+		$(this).addClass('active')
+		
 		var platform = $(this).data('platform')
 
 		if(platform && platform.length > 0) {

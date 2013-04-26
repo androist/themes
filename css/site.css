@@ -63,8 +63,15 @@ html, body {
 	font-weight: bold;
 	cursor: pointer;
 	background: white;
-	border-radius: 5px;
-	padding: 5px;
+	opacity: .8;
+	border-radius: 3px;
+	margin-right: 3px;
+	padding: 5px 10px;
+	transition: .5s;
+}
+
+.select-platform a.active {
+	opacity: 1;
 }
 
 .post {
