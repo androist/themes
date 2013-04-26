@@ -18,7 +18,7 @@ html, body {
 }
 
 .content {
-	margin: 1em 3em 1em 3em;
+	margin: 2em 3em 2em 3em;
 	text-align: center;
 }
 
@@ -65,7 +65,7 @@ html, body {
 	background: white;
 	opacity: .8;
 	border-radius: 3px;
-	margin-right: 3px;
+	margin-right: .5em;
 	padding: 5px 10px;
 	transition: .5s;
 }
