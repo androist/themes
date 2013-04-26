@@ -1,5 +1,15 @@
 html, body {
-	background: #262c33;
+	background: url(/img/line-tile.png) #262c33;
 	color: white;
 	font-family: sans-serif;
+}
+
+.header h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+.header img {
+	height: 50px;
+	vertical-align: text-top;
 }
