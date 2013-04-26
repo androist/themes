@@ -219,5 +219,7 @@ a:hover {
 
    .post-about {
    	margin-left: 0;
+   	text-align: center;
+   	margin-top: .5em;
    }
 }
