@@ -124,7 +124,7 @@ a:hover {
 .post {
 	background: white;
 	background-size: 100%;
-	float: left;
+	display: inline-block;
 	margin: 1em;
 	width: 17em;
 	height: 17em;
