@@ -1,3 +1,8 @@
+* {
+	outline: none !important;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 html, body {
 	background: url(../img/line-tile.png) #262c33;
 	color: white;
@@ -180,7 +185,7 @@ a:hover {
 
 @media (max-width: 22em) {
    .header a {
-   	font-size: 2em;
+   	font-size: 1em;
    }
 
    .content {
