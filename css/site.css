@@ -25,6 +25,7 @@ a:hover {
 	text-decoration: none;
 	text-align: center;
 	font-size: 3em;
+	opacity: 1;
 }
 
 .header img {
