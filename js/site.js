@@ -21,7 +21,7 @@ $(function() {
 
 		if(platform && platform.length > 0) {
 			$('.post').not('[data-platform~="' + platform + '"]').fadeOut('fast')
-			$('.post[data-platform=~"' + platform + '"]').fadeIn('fast')
+			$('.post[data-platform~="' + platform + '"]').fadeIn('fast')
 		} else {
 			$('.post').fadeIn('fast')
 		}
