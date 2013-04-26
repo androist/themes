@@ -8,6 +8,11 @@ body {
 	overflow-y: scroll;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
+
 .header a {
 	display: block;
 	color: white;
