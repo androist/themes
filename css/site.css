@@ -109,6 +109,14 @@ a:hover {
 	opacity: 1;
 }
 
+.post-about .play {
+	display: inline-block;
+	width: 172px;
+	height: 60px;
+	background: url(../img/play.png) no-repeat;
+	background-size: 100%;
+}
+
 .select-platform {
 	line-height: 2em;
 	text-align: center;
