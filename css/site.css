@@ -49,7 +49,6 @@ a:hover {
 
 .header img {
 	height: 1em;
-	vertical-align: text-top;
 }
 
 .content {
@@ -210,7 +209,6 @@ a:hover {
 
 .footer img {
 	height: 1em;
-	vertical-align: text-top;
 }
 
 .footer .separator {
