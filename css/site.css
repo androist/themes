@@ -131,8 +131,7 @@ a:hover {
 	cursor: pointer;
 	background: white;
 	opacity: .7;
-	border-radius: 5px;
-	margin-right: .5em;
+	margin-right: .2em;
 	margin-bottom: .5em;
 	padding: 0 10px;
 	line-height: 1.7em
