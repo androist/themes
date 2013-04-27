@@ -234,6 +234,7 @@ a:hover {
    	width: 17em;
    	height: auto;
    	max-width: 100%;
+   	background-position: center center;
    }
 
 .post a {
