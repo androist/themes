@@ -15,7 +15,10 @@ layout: page
 {% for post in site.posts %}
 	<div class="post" data-platform="{{post.tags | join: ' '}}" style="background-image: url({{post.thumb}})">
 		<div class="title">
-			<a href="{{post.url}}">{{post.title}}</a>
+			<a href="{{post.url}}">
+				{{post.title}}
+				<small>{{post.tags | join: ','}}</small>
+			</a>
 		</div>
 	</div>
 {% endfor %}
