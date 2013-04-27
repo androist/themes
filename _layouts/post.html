@@ -13,10 +13,10 @@ layout: page
 	author: {{page.author}}<br>
 	{% endif %}
 	platform: {{page.tags | join: ","}}<br>
-	{% if page.download %}
-	<a href="{{page.download}}" class="download" target="_blank">Download</a><br>
-	{% endif %}
 	{% if page.play %}
 	<a href="https://play.google.com/store/apps/details?id={{page.play}}" class="play" target="_blank"></a><br>
+	{% endif %}
+	{% if page.download %}
+	<a href="{{page.download}}" class="download" target="_blank">Download</a><br>
 	{% endif %}
 </div>

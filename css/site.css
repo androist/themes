@@ -96,7 +96,7 @@ a:hover {
 	display: inline-block;
 	background: white;
 	border-radius: 5px;
-	margin-top: 1em;
+	margin-top: .5em;
 	margin-bottom: 1em;
 	color: #2d2d2d;
 	font-weight: bold;
@@ -115,6 +115,7 @@ a:hover {
 	height: 60px;
 	background: url(../img/play.png) no-repeat;
 	background-size: 100%;
+	margin-top: 1em;
 }
 
 .select-platform {
