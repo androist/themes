@@ -1,5 +1,9 @@
-task :default do |t|
+task :default => [:clean] do |t|
 	exec "jekyll"
+end
+
+task :server => [:clean] do |t|
+	exec "jekyll --server"
 end
 
 task :post, [:name] do |t, args|
@@ -17,6 +21,11 @@ task :post, [:name] do |t, args|
 	end
 
 	time = Time.new
-	puts File.join File.dirname(__FILE__), "_posts", "#{time.year}-#{time.month}-#{time.day}-#{name}.md"
-	#File.new "_posts", "w"
+	path =  File.join File.dirname(__FILE__), "_posts", "#{time.year}-#{time.month}-#{time.day}-#{name}.md"
+	File.new path, "w"
+	puts "Created file #{path}"
+end
+
+task :clean do |t|
+	system "rm -rf _site"
 end
