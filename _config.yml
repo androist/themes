@@ -1,5 +1,5 @@
-baseurl: /
-url: http://themes.androist.com
+baseurl: /themes/
+url: http://androist.github.io/themes
 permalink: /:year/:title
 title: Androist Themes
 description: "Android theme gallery, find new Android themes."
